@@ -1,0 +1,72 @@
+.background {
+    display:flex;
+    height: 850px;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+  }
+
+.flex-container {
+    display: flex;
+    flex-direction:column;
+    height: 580px; 
+    width: 200px;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.red {
+    height: 150px;
+    width:150px;
+    background-color: red;
+    border: 15px solid darkred;
+}
+
+.childx {
+    height: 50%;
+    width: 100%;
+}
+
+.child1 {
+    height: 50%;
+    width: 100%;
+    background-color: lightcoral;
+}
+
+.yellow {
+    height: 150px;
+    width:150px;
+    background-color: yellow;
+    border: 15px solid darkgoldenrod;
+}
+
+.childy {
+    float:right;
+    height: 50%;
+    width: 100%;
+}
+
+.child2 {
+    float:right;
+    height: 50%;
+    width: 50%;
+    background-color:lightgoldenrodyellow;
+}
+
+.green {
+    height: 150px;
+    width:150px;
+    background-color: green;
+    border: 15px solid darkgreen;
+}
+
+.childz {
+    height: 50%;
+    width: 100%;
+}
+.child3 {
+    height: 50%;
+    width: 50%;
+    background-color:lightgreen; 
+}
